@@ -14,7 +14,7 @@ fi
 
 cd gcc-obj
 ../gcc-src/configure --disable-multilib --enable-languages=sfe --enable-checking
-make -j5
+make -j4
 
 cd gcc
 touch aaa.sfe
