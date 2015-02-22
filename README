@@ -1,0 +1,10 @@
+Unusual libraries needed: libmpc-dev libmpfr-dev libgmp-dev flex
+
+run init.sh, need root when compiling in ramdisk
+
+Most interesting webpages:
+http://gcc.gnu.org/ml/gcc/2011-10/msg00097.html
+http://gcc.gnu.org/onlinedocs/gcc-4.7.1/gcc/Debugging-Options.html
+http://idlebox.net/2011/apidocs/gcc-4.6.0.zip/gccint-4.6.0/gccint_11.html#SEC156
+http://www.cse.iitb.ac.in/grc/intdocs/gcc-implementation-details.html#The-AST_002fGeneric
+http://www.informatik.uni-hamburg.de/RZ/software/gnu/gcc/gccint/Front-End.html
