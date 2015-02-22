@@ -2,8 +2,8 @@
 
 if [ ! -d gcc-src ]; then
 
-  mkdir -p gcc-src
-  mkdir -p gcc-obj
+  #mkdir -p gcc-src
+  #mkdir -p gcc-obj
   sudo mount -t tmpfs none gcc-src
   sudo mount -t tmpfs none gcc-obj
 
