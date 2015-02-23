@@ -2,10 +2,10 @@
 
 if [ ! -d gcc-src ]; then
 
-  #mkdir -p gcc-src
-  #mkdir -p gcc-obj
-  sudo mount -t tmpfs none gcc-src
-  sudo mount -t tmpfs none gcc-obj
+  mkdir -p gcc-src
+  mkdir -p gcc-obj
+  #sudo mount -t tmpfs none gcc-src
+  #sudo mount -t tmpfs none gcc-obj
 
   svn checkout svn://gcc.gnu.org/svn/gcc/trunk@219615 gcc-src
   git clone http://git.extremehost.cz/repositories/pjp-gcc-sfe.git gcc-src/gcc/sfe/
